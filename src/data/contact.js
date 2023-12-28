@@ -4,6 +4,7 @@ import { faInstagram } from '@fortawesome/free-brands-svg-icons/faInstagram';
 import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons/faLinkedinIn';
 import { faTwitter } from '@fortawesome/free-brands-svg-icons/faTwitter';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons/faEnvelope';
+import { faYoutube } from '@fortawesome/free-brands-svg-icons/faYoutube';
 // See https://fontawesome.com/icons?d=gallery&s=brands,regular&m=free
 // to add other icons.
 
@@ -32,6 +33,11 @@ const data = [
     link: 'https://twitter.com/Douglas01688816',
     label: 'Twitter',
     icon: faTwitter,
+  },
+  {
+    link: 'https://www.youtube.com/channel/UCqjb737VGLK0wsFWAgSwgmg',
+    label: 'Youtube',
+    icon: faYoutube,
   },
   {
     link: 'mailto:luckyxiaoke@gmail.com',

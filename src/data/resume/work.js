@@ -14,7 +14,7 @@
 const work = [
   {
     name: 'Microsoft, Azure AI studio',
-    position: 'Senior Frontend Software Engineer',
+    position: 'Senior Frontend Software Engineer (Web)',
     url: 'https://ai.azure.com',
     startDate: '2018-10-15',
     summary: `As a Senior Frontend Engineer and Tech Lead at Microsoft AI Studio,
@@ -35,6 +35,57 @@ const work = [
       'Led the platform development of Azure Machine Learning Finetuning, drove discussions across teams including PM, designer and services. Built up Azure resources connections with Meta Llama-2 and Hugging Face to support models importing to AML for finetuning and evaluations, built up UI with React and TypeScript to support user setting LoRA parameters, connected user data and model with job scheduler service to distribute the training on serverless compute.',
       'Orchestrated the seamless integration of Azure Notebooks, integrated the 3rd party JavaScript bundle into CDN and consumed from Azure workspace resources provider, facilitated the embedding of it to the UI with React and TypeScript. Utilized the react-virtualized library to efficiently render large number(10K+) of files in Notebooks file explorer.',
       'Designed and implemented the Microsoft News article displaying portal with React and ASP.NET, defined the API with content-recommending service, obtained best matching article and linked it to the next button. Embed the articles into Bing search content, and improved the rankings for these articles, leveraging the Bing API to achieve this.',
+    ],
+  },
+  {
+    name: 'Amazon',
+    position: 'Full Stack Software Engineer (Web,Java)',
+    url: 'https://www.amazon.com/',
+    startDate: '2017-10-02',
+    endDate: '2018-06-30',
+    summary: `As a Full Stack Software Engineer in Amazon, I spearheaded the
+    design and implementation of a backup payment method service using Java,
+    demonstrating my expertise in backend development and system integration.
+    My work primarily involved establishing seamless communication with Paystation
+    services to ensure the availability of diverse payment methods, enhancing the
+    user shopping experience by automating the payment card scheduling process.
+    On the front-end, I successfully integrated payment information into the retail
+    website, utilizing Amazon's UI library alongside HTML, JavaScript, and Perl,
+    showcasing my versatility in both front-end and back-end development.
+    Additionally, I took the initiative to streamline the process of importing
+    metrics from the UpdateEverywhere payment service into AWS Redshift.
+    This involved building an efficient data pipeline using AWS SNS and SQS,
+    significantly reducing operational costs and alleviating the on-call burden
+    for the team. My leadership in metrics analysis and tool development further
+    highlights my ability to combine technical skills with strategic problem-solving,
+    driving improvements in both user experience and team efficiency.`,
+    highlights: [
+      'Designed and implemented a backup payment method service with Java, communicated with Paystation services to get payments methods availabilities, and schedule the payment card automatically to improve user shopping experience. Integrated the payment information to the retail website with Amazon UI library, HTML, JavaScript and Perl.',
+      'Streamlined the process of importing UpdateEverywhere payment service metrics into AWS Redshift by building up a pipeline to bump data to AWS SNS and SQS. Led the metrics analysis and tool development for lowering the costs and burden of whole team on-call efforts.',
+    ],
+  },
+  {
+    name: 'VMware',
+    position: 'Full Stack Software Engineer (Android)',
+    startDate: '2014-04-14',
+    endDate: '2017-09-27',
+    summary: `As a Full Stack Software Engineer in VMware, I pioneered the design
+    of a real-time audio-video input system for an Android-based remote login application,
+    showcasing my expertise in Java, C++, and the Android SDK. My contribution involved
+    introducing a sophisticated module to capture device inputs, ensuring seamless
+    integration and user interaction. Furthermore, I successfully implemented an Acoustic
+    Echo Cancellation (AEC) module, utilizing the Least Mean Squares algorithm to facilitate
+    echo-free communication, a critical feature for enhancing the audio quality in real-time
+    communication. In another notable project, I led the design of a clipboard redirection
+    virtual channel, connecting an Android app with a cloud-based virtual desktop.
+    This involved developing a rich text converter in Java and an efficient image caching
+    system using C++ and the Android SDK, employing the Least Recently Used (LRU) algorithm
+    to optimize performance and resource utilization. These projects highlight my ability to
+    innovate and lead in complex software development environments, delivering solutions that
+    improve user experience and system functionality.`,
+    highlights: [
+      'Pioneered the design of a real-time audio-video input system for an Android remote login app using Java, C++, and the Android SDK, and introduced a module to capture device inputs. Implemented an Acoustic Echo Cancellation (AEC) module in Java, using the Least Mean Squares algorithm for echo-free communication.',
+      'Led the design of a clipboard redirection virtual channel from an Android app to a cloud virtual desktop, utilizing Java for a rich text converter and Android SDK and C++ for an image caching system with the LRU algorithm.',
     ],
   },
 ];
