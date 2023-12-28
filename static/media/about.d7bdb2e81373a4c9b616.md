@@ -33,21 +33,14 @@ I am the Tech Lead at Microsoft with 9 years of experience in Front-end Software
 
 - BIG
 
-# Websites from people I admire
+# Websites I usually read
 
-- [Alex Peysakhovich](http://alexpeys.github.io/)
-- [Chris Lengerich](http://www.chrislengerich.com/)
-- [Chris Saad](https://www.chrissaad.com/)
-- [Duncan Tomlin](http://duncantomlin.com/)
-- [Hawley Moore](http://hawleymoore.com/)
-- [Holman Gao](https://golmansax.com/)
-- [Ian Webster](http://ianww.com/)
-- [Johanna Flato](https://www.johannaflato.com/)
-- [Judy Mou](http://www.judymou.com/)
-- [Kristina Monakhova](https://kristinamonakhova.com/)
-- [Noah Trueblood](http://notrueblood.com/)
-- [Ruoxi Wang](http://ruoxiw.com/)
-- [Tom Sachs](https://www.tomsachs.org/)
-- [Will Holley](https://willholley.com)
-
-If we are friends and you feel like you belong on this list, you're probably right. Submit a PR, or ask me and I'll add you.
+- [Netflix Tech Blog](https://netflixtechblog.com/)
+- [Uber Blog](https://www.uber.com/en-US/blog/engineering/)
+- [The Cloudflare Blog](https://blog.cloudflare.com/)
+- [Engineering at Meta](https://engineering.fb.com/)
+- [LinkedIn Engineering Blog](https://engineering.linkedin.com/blog)
+- [Discord Blog](https://discord.com/blog/)
+- [AWS Architecture Blog](https://aws.amazon.com/blogs/architecture/)
+- [Slack Engineering](https://slack.engineering/)
+- [Stripe Blog](https://stripe.com/blog/engineering)
