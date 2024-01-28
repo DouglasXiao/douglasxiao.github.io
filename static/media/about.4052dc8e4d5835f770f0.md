@@ -2,6 +2,8 @@
 
 I am the Tech Lead at Microsoft with 9 years of experience in Front-end Software Engineering, specializing in Azure Machine Learning, AI studio UI and infrastructure development, and collaboration with OpenAI. Skilled in web interface design, integration with large-scale systems, and machine learning models.
 
+Currently I am interested in Web, Distributed System, AI/ML technologies, Algorithms.
+
 # Some history
 
 - Central South University (Bachelor degree)
