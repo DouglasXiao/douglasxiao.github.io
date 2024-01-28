@@ -48,7 +48,7 @@ By default, the application should be available at [http://localhost:3000/](http
 
 1. Adjust the `homepage` value in `package.json` based on your hosting preferences.
 2. Planning on using a custom domain? Update `public/CNAME`. Otherwise, remove it.
-3. Execute the command `npm run deploy`. It will leverage the gh-pages tool to publish the page, recommend watching this https://youtu.be/7wzuievFjrk?si=yft_PbfnUZWrFSKU for detailed steps.
+3. Execute the command `npm run deploy`. It will leverage the gh-pages tool to publish the page, recommend watching [this video](https://youtu.be/7wzuievFjrk?si=yft_PbfnUZWrFSKU) for detailed steps.
 
 ### Static Export
 
