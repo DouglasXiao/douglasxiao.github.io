@@ -1,6 +1,17 @@
 // TODO Add a couple lines about each project
 const data = [
   {
+    title: 'Web text pilot',
+    link: 'https://chromewebstore.google.com/detail/ask-gpt-about-paragraphs/ainadpeplmnfbfnieflcndcdjfbnenma?hl=en&authuser=0',
+    subtitle: 'Chrome plugin',
+    image: '/images/projects/webtextpilot.png',
+    date: '2024-2-2',
+    desc:
+      'A simple dialog to help you reach to ChatGPT and ask any questions. '
+      + 'This plugin is designed to assist users in gaining a deeper understanding of text and paragraphs they encounter while browsing websites, '
+      + 'particularly when they come across questions that require further explanation.',
+  },
+  {
     title: 'ASK GPT about images',
     link: 'https://chromewebstore.google.com/detail/ask-gpt-about-images/mkhhfmknhcmoehogomnfhjmfdholkapo?hl=en',
     subtitle: 'Chrome plugin',
