@@ -20,10 +20,9 @@ const SideBar = () => (
     <section className="blurb">
       <h2>About</h2>
       <p>Hi, I&apos;m Douglas, a Senior Frontend Engineer and Tech Lead at
-        Microsoft AI Studio. With 9 years&apos; experience, including roles at Amazon and
-        VMware, I specialize in Azure Machine Learning, AI studio UI, and OpenAI
-        collaborations, expertly blending web design with large-scale systems and
-        machine learning.
+        TikTok global e-commerce. With 9+ years of experience, including roles at Microsoft AI Studio, Amazon and
+        VMware, I specialized in Frontend architecture, expertly blending web design with large-scale systems,
+        state management system like remesh, also mobile applications.
       </p>
       <ul className="actions">
         <li>

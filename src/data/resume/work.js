@@ -13,6 +13,20 @@
  */
 const work = [
   {
+    name: 'Tiktok',
+    position: 'Senior Frontend Software Engineer (Web + Mobile)',
+    url: '',
+    startDate: '2024-03-04',
+    summary: `As a Senior Frontend Engineer and Tech Lead at Tiktok global e-commerce,
+    I am responsible for merchant fulfillment and logistics, during this experience I am expertise using React also state management tool like remesh which 
+    abstract the data and model to domain level, then split the component into View and ViewModel, ViewModel would get data from the domain and pass to view,
+    in this way we can reuse domain data, API call and model logic between Web and Mobile since only View got changed.
+    I also developed app on mobile size using Lynx which is a similar native tool as React native, and Lynx is leveraging JS bridge to acquire native abilities.`,
+    highlights: [
+      'Led the design and development for seller fulfillment web and mobile applications, which helps merchants to create shipping labels and send to shipping service providers and execute the logistics route to deliver goods to customers',
+    ],
+  },
+  {
     name: 'Microsoft, Azure AI studio',
     position: 'Senior Frontend Software Engineer (Web)',
     url: 'https://ai.azure.com',
