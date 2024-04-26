@@ -1,8 +1,10 @@
 # Intro
 
-I am the Tech Lead at Microsoft with 9 years of experience in Front-end Software Engineering, specializing in Azure Machine Learning, AI studio UI and infrastructure development, and collaboration with OpenAI. Skilled in web interface design, integration with large-scale systems, and machine learning models.
+I am the Frontend Tech Lead at Tiktok global e-commerce team. I have 9+ years of experience in Frontend Software Engineering, including both web and mobile apps, also mobile native experiences. From business perspective, I am specialized in e-commerce fulfillment, Azure Machine Learning, AI studio UI and infrastructure development, and collaboration with OpenAI. 
 
-Currently I am interested in Web, Distributed System, AI/ML technologies, Algorithms.
+Skilled in web interface design, integrating with large-scale distributed systems, state management system like remesh and mobile React exprience like React native and Lynx.
+
+Currently I am interested in Web, Mobile, Distributed System, AI/ML technologies, LLM, Algorithms.
 
 # Some history
 
@@ -11,6 +13,7 @@ Currently I am interested in Web, Distributed System, AI/ML technologies, Algori
 - VMware
 - Amazon
 - Microsoft
+- ByteDance (Tiktok)
 
 # I like
 
@@ -20,7 +23,7 @@ Currently I am interested in Web, Distributed System, AI/ML technologies, Algori
 - Podcasts
 - [Photography](https://www.instagram.com/rockdouglas_2020)
 
-# Travel / Geography
+# Geography
 
 - Changsha, China
 - Beijing, China
