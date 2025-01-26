@@ -14,6 +14,17 @@ import { skills, categories } from '../data/resume/skills';
 
 // NOTE: sections are displayed in order defined.
 const sections = {
+  Download: () => (
+    <div className="download-section" style={{ marginBottom: "28px" }}>
+      <h3>Download My Resume</h3>
+      <p>
+        Click the button below to download my resume as a PDF.
+      </p>
+      <a href="/douglasResume.pdf" target="_blank" rel="noopener noreferrer" className="button">
+        Download Resume
+      </a>
+    </div>
+  ),
   Education: () => <Education data={degrees} />,
   Experience: () => <Experience data={work} />,
   Skills: () => <Skills skills={skills} categories={categories} />,
