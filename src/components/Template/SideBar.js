@@ -20,9 +20,9 @@ const SideBar = () => (
     <section className="blurb">
       <h2>About</h2>
       <p>Hi, I&apos;m Douglas, a Senior Frontend Engineer and Tech Lead at
-        TikTok global e-commerce. With 9+ years of experience, including roles at Microsoft AI Studio, Amazon and
-        VMware, I specialized in Frontend architecture, expertly blending web design with large-scale systems,
-        state management system like remesh, also mobile applications.
+        TikTok Global E-Commerce. With 10 years of experience in Front-end Software Engineering, including roles at Tiktok Shop seller center fulfillment, Microsoft AI Studio, Amazon payment and
+        VMware End User Computing, I specialized in Frontend architecture, expertly blending web design with large-scale systems, parallel promises,
+        state management system like Remesh, also mobile applications and frameworks like React Native, Lynx.
       </p>
       <ul className="actions">
         <li>
