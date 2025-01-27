@@ -1,6 +1,6 @@
 # Intro
 
-I am the Frontend Tech Lead at Tiktok global e-commerce team. I have 9+ years of experience in Frontend Software Engineering, including both web and mobile apps, also mobile native experiences. From business perspective, I am specialized in e-commerce fulfillment, Azure Machine Learning, AI studio UI and infrastructure development, and collaboration with OpenAI. 
+I am the Frontend Tech Lead at Tiktok global e-commerce team. I have 10+ years of experience in Frontend Software Engineering, including both web and mobile apps, also mobile native experiences. From business perspective, I am specialized in e-commerce fulfillment, Azure Machine Learning, AI studio UI and infrastructure development, and collaboration with OpenAI. 
 
 Skilled in web interface design, integrating with large-scale distributed systems, state management system like remesh and mobile React exprience like React native and Lynx.
 
@@ -8,31 +8,28 @@ Currently I am interested in Web, Mobile, Distributed System, AI/ML technologies
 
 # Some history
 
-- Central South University (Bachelor degree)
-- Beijing University of Posts and Telecommunications (Master degree)
-- VMware
+- ByteDance **TikTok**
 - Amazon
 - Microsoft
-- ByteDance (Tiktok)
+- VMware
+- Beijing University of Posts and Telecommunications **Master degree**
+- Central South University **Bachelor degree**
 
 # I like
 
+- AI, Deep learning, Agents
+- Tech and coding
 - Fitness
 - Reading
-- Tech and coding
 - Podcasts
 - [Photography](https://www.instagram.com/rockdouglas_2020)
 
 # Geography
 
-- Changsha, China
-- Beijing, China
+- Seattle, USA
 - Vancouver, Canada
-- Seattle, US
-
-# Fun facts
-
-- I have a list of thousands of ideas
+- Beijing, China
+- Changsha, China
 
 # I dream of
 
