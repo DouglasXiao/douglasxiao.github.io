@@ -5,7 +5,7 @@ Welcome to my [personal website](https://douglasxiao.github.io/)! This is an MIT
 ## 🚀 Features
 
 - Built with modern JavaScript, using tools and frameworks like [create-react-app](https://github.com/facebook/create-react-app), [React-Router](https://reactrouter.com/), and SCSS.
-- Automated workflows via [GitHub Actions](https://github.com/features/actions).
+- Automated deployment workflows via [GitHub Actions](https://github.com/features/actions).
 - And more!
 
 ## 🔧 Dependencies
@@ -18,10 +18,10 @@ Ensure you have [node](https://nodejs.org/) >= v16. Optionally, use [nvm](https:
 
     ```bash
     git clone https://github.com/DouglasXiao/douglasxiao.github.io.git
-    cd personal-site
+    cd douglasxiao.github.io/
     ```
 
-2. (Optional) Ensure you're on Node v16 or higher:
+2. (Optional) Ensure you're on Node v16 or higher, or you can use NVM to manage the node versions:
 
     ```bash
     nvm install
@@ -34,7 +34,7 @@ Ensure you have [node](https://nodejs.org/) >= v16. Optionally, use [nvm](https:
     npm install
     ```
 
-4. Start the application:
+4. Start the application locally:
 
     ```bash
     npm start
@@ -42,15 +42,17 @@ Ensure you have [node](https://nodejs.org/) >= v16. Optionally, use [nvm](https:
 
 By default, the application should be available at [http://localhost:3000/](http://localhost:3000/).
 
-## 🚢 Deploying
+## 🚢 Deploy to github io page
 
 ### Deploying to GitHub Pages
 
-1. Adjust the `homepage` value in `package.json` based on your hosting preferences.
-2. Planning on using a custom domain? Update `public/CNAME`. Otherwise, remove it.
-3. Execute the command `npm run deploy`. It will leverage the gh-pages tool to publish the page, recommend watching [this video](https://youtu.be/7wzuievFjrk?si=yft_PbfnUZWrFSKU) for detailed steps.
+1. Build project locally: `npm run predeploy`
+2. Execute the command `npm run deploy`. It will leverage the gh-pages tool to publish the page, recommend watching [this video](https://youtu.be/7wzuievFjrk?si=yft_PbfnUZWrFSKU) for detailed steps.
+3. Now view site douglasxiao.github.io, it should be available with all your changes! 
+3. Git add all local changes and commit/push.
 
-### Static Export
+
+### Static Export (can be used to deploy to CDN)
 
 For a static export without deploying to GitHub Pages:
 
