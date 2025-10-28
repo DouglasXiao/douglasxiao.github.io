@@ -1,6 +1,6 @@
 # Intro
 
-I am the Frontend Tech Lead at Tiktok global e-commerce team. I have 10+ years of experience in Frontend Software Engineering, including both web and mobile apps, also mobile native experiences. From business perspective, I am specialized in e-commerce fulfillment, Azure Machine Learning, AI studio UI and infrastructure development, and collaboration with OpenAI. 
+I’m a Senior AI Engineer at ByteDance’s Data AI Foundation, focused on building cutting-edge multi-modal and agentic AI systems. With over a decade of experience across ByteDance, TikTok, Microsoft, Amazon, and VMware, I specialize in bridging advanced AI research with scalable engineering. My expertise spans agentic systems, reinforcement learning, prompt engineering, and large-scale platform architecture — combining strong front-end and system design skills to turn complex ideas into real-world products.
 
 Skilled in web interface design, integrating with large-scale distributed systems, state management system like remesh and mobile React exprience like React native and Lynx.
 
@@ -8,7 +8,7 @@ Currently I am interested in Web, Mobile, Distributed System, AI/ML technologies
 
 # Some history
 
-- ByteDance **TikTok**
+- ByteDance **Data AI Foundation** / **TikTok**
 - Amazon
 - Microsoft
 - VMware
