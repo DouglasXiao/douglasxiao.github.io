@@ -10,7 +10,7 @@ import { act } from 'react-dom/test-utils';
 import App from '../App';
 
 describe('renders the app', () => {
-  // mocks the fetch API used on the stats page and the about page.
+  // mocks the fetch API used on the stats page and the index page (about.md).
   const jsonMock = jest.fn(() => Promise.resolve({}));
   const textMock = jest.fn(() => Promise.resolve(''));
   global.fetch = jest.fn(() => Promise.resolve({
@@ -23,6 +23,9 @@ describe('renders the app', () => {
   let container;
 
   beforeEach(async () => {
+    // BrowserRouter reads window.location; reset so each test starts at /
+    // after prior tests navigate (e.g. /projects).
+    window.history.pushState({}, '', '/');
     container = document.createElement('div');
     document.body.appendChild(container);
     await act(async () => {
@@ -44,24 +47,20 @@ describe('renders the app', () => {
     expect(document.title).toBe('Ke Xiao');
   });
 
-  it('can navigate to /about', async () => {
-    expect.assertions(7);
-    const aboutLink = document.querySelector('#header > nav > ul > li:nth-child(1) > a');
-    expect(aboutLink).toBeInTheDocument();
+  it('redirects /about to /', async () => {
+    document.body.removeChild(container);
+    window.history.pushState({}, '', '/about');
+    container = document.createElement('div');
+    document.body.appendChild(container);
     await act(async () => {
-      await aboutLink.click();
+      await ReactDOM.createRoot(container).render(<App />);
     });
-    expect(document.title).toContain('About |');
-    expect(window.location.pathname).toBe('/about');
-    expect(window.scrollTo).toHaveBeenNthCalledWith(1, 0, 0);
-    expect(global.fetch).toHaveBeenCalledTimes(1);
-    expect(jsonMock).toHaveBeenCalledTimes(0);
-    expect(textMock).toHaveBeenCalledTimes(1);
+    expect(window.location.pathname).toBe('/');
   });
 
   it('can navigate to /resume', async () => {
     expect.assertions(3);
-    const contactLink = document.querySelector('#header > nav > ul > li:nth-child(2) > a');
+    const contactLink = document.querySelector('#header > nav > ul > li:nth-child(1) > a');
     expect(contactLink).toBeInTheDocument();
     await act(async () => {
       await contactLink.click();
@@ -72,7 +71,7 @@ describe('renders the app', () => {
 
   it('can navigate to /projects', async () => {
     expect.assertions(3);
-    const contactLink = document.querySelector('#header > nav > ul > li:nth-child(3) > a');
+    const contactLink = document.querySelector('#header > nav > ul > li:nth-child(2) > a');
     expect(contactLink).toBeInTheDocument();
     await act(async () => {
       await contactLink.click();
@@ -82,21 +81,21 @@ describe('renders the app', () => {
   });
 
   it('can navigate to /stats', async () => {
-    expect.assertions(5);
-    const contactLink = document.querySelector('#header > nav > ul > li:nth-child(4) > a');
+    const contactLink = document.querySelector('#header > nav > ul > li:nth-child(3) > a');
     expect(contactLink).toBeInTheDocument();
     await act(async () => {
       await contactLink.click();
     });
     expect(document.title).toContain('Stats |');
     expect(window.location.pathname).toBe('/stats');
-    expect(global.fetch).toHaveBeenCalledTimes(1);
+    expect(global.fetch).toHaveBeenCalledTimes(2);
     expect(jsonMock).toHaveBeenCalledTimes(1);
+    expect(textMock).toHaveBeenCalledTimes(1);
   });
 
   it('can navigate to /contact', async () => {
     expect.assertions(3);
-    const contactLink = document.querySelector('#header > nav > ul > li:nth-child(5) > a');
+    const contactLink = document.querySelector('#header > nav > ul > li:nth-child(4) > a');
     expect(contactLink).toBeInTheDocument();
     await act(async () => {
       await contactLink.click();

@@ -39,12 +39,8 @@ Currently, my interests center on agentic AI systems, AI/ML technologies, LLMs, 
 
 # Websites I usually read
 
-- [Netflix Tech Blog](https://netflixtechblog.com/)
-- [Uber Blog](https://www.uber.com/en-US/blog/engineering/)
-- [The Cloudflare Blog](https://blog.cloudflare.com/)
+- [Anthropic Engineering](https://www.anthropic.com/engineering/)
+- [OpenAI Engineering](https://openai.com/news/engineering/)
+- [Lil’Log](https://lilianweng.github.io/)
 - [Engineering at Meta](https://engineering.fb.com/)
-- [LinkedIn Engineering Blog](https://engineering.linkedin.com/blog)
-- [Discord Blog](https://discord.com/blog/)
 - [AWS Architecture Blog](https://aws.amazon.com/blogs/architecture/)
-- [Slack Engineering](https://slack.engineering/)
-- [Stripe Blog](https://stripe.com/blog/engineering)
