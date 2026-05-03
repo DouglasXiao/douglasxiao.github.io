@@ -1,10 +1,12 @@
 # Intro
 
-I’m a Senior AI Engineer at ByteDance’s Data AI Foundation, focused on building cutting-edge multi-modal and agentic AI systems. With over a decade of experience across ByteDance, TikTok, Microsoft, Amazon, and VMware, I specialize in bridging advanced AI research with scalable engineering. My expertise spans agentic systems, reinforcement learning, prompt engineering, and large-scale platform architecture — combining strong front-end and system design skills to turn complex ideas into real-world products.
+I’m an AI Engineer at ByteDance’s Data AI Foundation, where I focus on building cutting-edge multimodal agentic AI systems and advancing post-training techniques such as DPO and GRPO.
 
-Skilled in web interface design, integrating with large-scale distributed systems, state management system like remesh and mobile React exprience like React native and Lynx.
+With over a decade of engineering experience across ByteDance, Microsoft, Amazon, and VMware, I specialize in bridging frontier AI research with scalable production engineering. My work spans agentic systems, reinforcement learning, prompt engineering, multimodal infrastructure, vector and multimodal databases, and large-scale platform architecture.
 
-Currently I am interested in Web, Mobile, Distributed System, AI/ML technologies, LLM, Algorithms.
+I bring strong full-stack engineering experience and a deep understanding of distributed systems, infrastructure, MySQL, data lakes, LanceDB, and production AI platforms. This allows me to design and build end-to-end agentic systems that connect models, tools, memory, data, evaluation, and user-facing experiences.
+
+Currently, my interests center on agentic AI systems, AI/ML technologies, LLMs, algorithms, reinforcement learning, and multimodal data systems.
 
 # Some history
 
