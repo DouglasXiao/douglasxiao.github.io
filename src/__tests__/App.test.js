@@ -69,9 +69,20 @@ describe('renders the app', () => {
     expect(window.location.pathname).toBe('/resume');
   });
 
+  it('can navigate to /blogs', async () => {
+    expect.assertions(3);
+    const blogsLink = document.querySelector('#header > nav > ul > li:nth-child(2) > a');
+    expect(blogsLink).toBeInTheDocument();
+    await act(async () => {
+      await blogsLink.click();
+    });
+    expect(document.title).toContain('Blogs |');
+    expect(window.location.pathname).toBe('/blogs');
+  });
+
   it('can navigate to /projects', async () => {
     expect.assertions(3);
-    const contactLink = document.querySelector('#header > nav > ul > li:nth-child(2) > a');
+    const contactLink = document.querySelector('#header > nav > ul > li:nth-child(3) > a');
     expect(contactLink).toBeInTheDocument();
     await act(async () => {
       await contactLink.click();
@@ -81,7 +92,7 @@ describe('renders the app', () => {
   });
 
   it('can navigate to /stats', async () => {
-    const contactLink = document.querySelector('#header > nav > ul > li:nth-child(3) > a');
+    const contactLink = document.querySelector('#header > nav > ul > li:nth-child(4) > a');
     expect(contactLink).toBeInTheDocument();
     await act(async () => {
       await contactLink.click();
@@ -95,7 +106,7 @@ describe('renders the app', () => {
 
   it('can navigate to /contact', async () => {
     expect.assertions(3);
-    const contactLink = document.querySelector('#header > nav > ul > li:nth-child(4) > a');
+    const contactLink = document.querySelector('#header > nav > ul > li:nth-child(5) > a');
     expect(contactLink).toBeInTheDocument();
     await act(async () => {
       await contactLink.click();

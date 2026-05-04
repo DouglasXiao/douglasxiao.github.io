@@ -1,0 +1,33 @@
+// Blog index: default `ul.posts` uses row-reverse for image + header; we use header + excerpt only.
+
+#blogs {
+	ul.posts {
+		article {
+			@include vendor('flex-direction', 'column');
+			@include vendor('align-items', 'stretch');
+
+			header {
+				h3 {
+					font-size: 1.05em;
+					font-weight: _font(weight-heading-bold);
+					margin: 0 0 0.35em 0;
+				}
+
+				.published {
+					display: block;
+					font-size: 0.65em;
+					letter-spacing: _font(kerning-heading);
+					margin: 0 0 0.85em 0;
+					text-transform: uppercase;
+				}
+			}
+
+			> p {
+				color: _palette(fg);
+				line-height: 1.65;
+				margin: 0;
+				width: 100%;
+			}
+		}
+	}
+}
