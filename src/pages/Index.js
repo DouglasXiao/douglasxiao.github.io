@@ -22,7 +22,7 @@ const Index = () => {
 
   return (
     <Main
-      description="Learn about Ke Xiao — AI Engineer at ByteDance Data AI Foundation, multimodal agentic AI, and production ML systems."
+      description="Learn about Douglas Xiao — AI Engineer at ByteDance Data AI Foundation, multimodal agentic AI, and production ML systems."
     >
       <article className="post markdown" id="index">
         <header>

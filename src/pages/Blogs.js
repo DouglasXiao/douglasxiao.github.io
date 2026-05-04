@@ -15,7 +15,7 @@ const Blogs = () => {
   return (
     <Main
       title="Blogs"
-      description="Articles and notes by Ke Xiao."
+      description="Articles and notes by Douglas Xiao."
     >
       <article className="post" id="blogs">
         <header>

@@ -12,7 +12,7 @@ const SideBar = () => (
         <img src={`${PUBLIC_URL}/images/me.png`} alt="" />
       </Link>
       <header>
-        <h2>Ke Xiao</h2>
+        <h2>Douglas Xiao</h2>
         <p><a href="mailto:luckyxiaoke@gmail.com">luckyxiaoke@gmail.com</a></p>
       </header>
     </section>
@@ -34,7 +34,7 @@ const SideBar = () => (
 
     <section id="footer">
       <ContactIcons />
-      <p className="copyright">&copy; Ke Xiao <Link to="/">https://douglasxiao.github.io/</Link>.</p>
+      <p className="copyright">&copy; Douglas Xiao <Link to="/">https://douglasxiao.github.io/</Link>.</p>
     </section>
   </section>
 );
