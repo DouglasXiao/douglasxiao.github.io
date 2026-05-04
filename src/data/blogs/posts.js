@@ -14,6 +14,18 @@
 /** @type {BlogPostMeta[]} */
 export const blogPosts = [
   {
+    slug: 'agent-loop-intro',
+    title: '深入解析 agent‑loop：打造可扩展 AI 代理系统的实践',
+    date: '2026-05-05',
+    description: '从 Agent Loop 概念出发，梳理流式循环、工具与权限、记忆压缩、子代理与并行、技能与任务流、worktree/团队邮箱及多提供商与容错等整体设计。',
+  },
+  {
+    slug: 'agent-loop-code-analysis',
+    title: 'agent-loop 项目演化分析',
+    date: '2026-05-04',
+    description: '按提交顺序梳理 agent-loop 仓库：流式 SSE、工具与权限、记忆与压缩、子代理、技能与任务图、worktree 与多提供商等演进。',
+  },
+  {
     slug: 'welcome',
     title: 'Welcome to this blog',
     date: '2026-05-03',
@@ -31,6 +43,10 @@ export const getSortedBlogPosts = () => [...blogPosts].sort((a, b) => b.date.loc
  */
 export function importBlogMarkdown(slug) {
   switch (slug) {
+    case 'agent-loop-intro':
+      return import('./agentLoopIntro.md');
+    case 'agent-loop-code-analysis':
+      return import('./agentLoopCodeAnalysis.md');
     case 'welcome':
       return import('./welcome.md');
     default:
